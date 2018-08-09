@@ -1,2 +1,0 @@
-system-cmds:
-	/usr/sbin/update (gone from system-cmds)
