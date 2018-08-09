@@ -1,120 +1,19 @@
-Package: vn.zlabteam.cydiazlab
-Version: 1.0
+Package: cydia-gui
+Version: 1.1.31
 Architecture: iphoneos-arm
-Maintainer: Yangcheesen
-Depends: ios
-Filename: /cydiazlab.deb
-Size: 2511744
-MD5sum: 46893ab068bc9529553901a859a9c866
-SHA1: ac4ef4637f89a039629303fc901447628c0abcbc
-SHA256: 6e7208a39b400bb1ce33264d30bc216c66d1fc6adcac81a52a08c1efbb552cb8
-Section: Tweaks
-Description: Cydia mod iOS 11 for AppStore
-Author: Yangcheesen
-Name: Cydia Zlab
-
-Package: vn.zlabteam.safemodesublime
-Version: 1.3-1
-Architecture: iphoneos-arm
-Maintainer: Yangcheesen
-Depends: ios
-Filename: /safemodesublime.deb
-Size: 33374066
-MD5sum: 7ddd42bb0b59cfd075e2311c73bf2ea0
-SHA1: 2536c6960af0eaa6bfaca108e0ffbec63c7210a9
-SHA256: 440b1f55bc547d904b51ebe960b3d59435c3c6f47754e152c7e1b4dbe8a1978b
-Section: Tweaks
-Description: Mod Safemode iphone.:. ipad
-Author: Yangcheesen
-Name: Safemodesublime
-
-Package: vn.zlabteam.sileoicon
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Yangcheesen
-Depends: ios
-Filename: /sileoicon.deb
-Size: 28952
-MD5sum: 00d4cb93d1634445d1adaa00996687db
-SHA1: 6d5d1e8a0e419d6a2c8f314031413f1be90c92aa
-SHA256: f034699accd4bc80714fd1cd76a0efc40c42f86978215251f4ef41332c1d221b
-Section: Theme
-Description: icon sileo for Cydia iOS11
-Author: Yangcheesen
-Name: Sileo icon
-
-Package: vn.zlabteam.otadisabler11
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: Yangcheesen
-Depends: ios 11
-Filename: /otadisabler.deb
-Size: 200138
-MD5sum: d326334b8531b6681bb33c679078e140
-SHA1: b8c716211e37c86276f4a892958ab0647e1bfc4a
-SHA256: d165ffdf7ddc99f2f197819f2c06406954cd3470547e6b6998c9285aed88d82d
-Section: System
-Description: disabler update ios OTA
-Author: Yangcheesen
-Name: OTADisabler11
-
-Package: com.yangcheesen.zlab19c
-Version: 20.
-Architecture: iphoneos-arm
-Maintainer: Yangcheesen
-Depends: ios
-Filename: /zlab19c.deb
-Size: 2211558
-MD5sum: 2a486f5ff8969382205f821bf1207547
-SHA1: 1e385c0440f73daae07b217e0d87455f1556d12c
-SHA256: d416833354fcadc4ab6a66c018c384d175b24811b7529209de7fa33d40f2df95
-Section: Theme
-Description: zlab19c 100 icon and team add icon new darkzlab19c
-Author: Yangcheesen
-Name: Zlab19c
-
-Package: com.yangcheesen.xretina11
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Yangcheesen
-Depends: ios
-Filename: /xretina11.deb
-Size: 190616
-MD5sum: d8bb5437a2ae0f81f7bdfa16955c4a27
-SHA1: ba69e7f600792d0f39a033c36c28fd12ce822c4d
-SHA256: d416833354fcadc4ab6a66c018c384d175b24811b7529209de7fa33d40f2df95
-Section: Tweaks
-Description: Bob cong màng hình như iphone x
-Author: Yangcheesen
-Name: XRetina11
-
-Package: 
-Version: 
-Architecture: iphoneos-arm
-Maintainer: Yangcheesen
-Depends: ios
-Filename: /
-Size: 
-MD5sum:
-SHA1:
-SHA256:
-Section: Tweaks
-Description: 
-Author: Yangcheesen
-Name: 
-
-
-Package: 
-Version: 
-Architecture: iphoneos-arm
-Maintainer: Yangcheesen
-Depends: ios
-Filename: /
-Size: 
-MD5sum:
-SHA1:
-SHA256:
-Section: Tweaks
-Description: 
-Author: Yangcheesen
-Name: 
+Maintainer: Yangcheeseb
+Depends: cy+cpu.arm64
+Replaces: cydia
+Filename: https://yangcheesenios.github.io/cydia/cydia-gui_1.1.31_iphoneos-arm.deb
+Size: 1064908
+MD5sum:093dcaeb673d03ec5d12a98362ab50f0
+SHA1: 965ee199a05d489f902e1ee631849882f4d5e596
+SHA256: 8ba12466876a0af23a13a3dbb7124092d0e82cfabcacd3ffc2da6b4d25c727b7
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Saurik & CoolStar & Yangcheesen & Zlab Team
+Depiction: https://yangcheesenios.github.io/cydia.html
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia (GUI Only)
