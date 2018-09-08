@@ -1,8 +1,8 @@
-Origin: Yangcheesen
-Label: Yangcheesen
+Origin: Yangcheesen Utilities
+Label: Yangcheesen Utilities
 Suite: stable
 Version: 1.0
 Architectures: iphoneos-arm
 Components: main
-Codename: yangcheesen
-Description: repo cydia
+Codename: Yangcheesebn
+Description: Core Utilities and other arm64 iOS jailbreaks
