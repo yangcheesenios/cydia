@@ -76,27 +76,27 @@ Package: mobilesubstrate
 Version: 99.1
 Architecture: iphoneos-arm
 Maintainer: Yangcheeesen
-Depends: vn.yangcheesen.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
+Depends: org.coolstar.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
 Filename: debs/mobilesubstrate_99.1_iphoneos-arm.deb
 Size: 2724
-MD5sum: 136204b02f80ac65d1934b654141ebd7
-SHA1: 15f280146dcc0bf80508a8a8232b415e0d801834
-SHA256: d2cab3167b0b7c03370b64cb3b09434dd76bd9e4ee090226c3abcfe2c98deb06
+MD5sum: b67f719a89a2cac3f21b7aa9c911550c
+SHA1: d933e7ebab5b30126a4dcbc0b7ff098d6ad83b91
+SHA256: 1e70a9b3235c6e9ca64a22be90565fae3c1138ac7e0dfbc7fd9e802d519f7244
 Section: System
 Description: Compatibility wrapper for Substrate tweaks to work with Tweak Injector + Substitute
 Author: Yangcheesen
 Name: Substrate Compatibility Layer
 
-Package: vn.yangcheesen.tweakinject
+Package: org.coolstar.tweakinject
 Version: 1.0.8
 Architecture: iphoneos-arm
 Maintainer: Yangcheesen
 Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute
-Filename: debs/vn.yangcheesen.tweakinject_1.0.8_iphoneos-arm.deb
+Filename: debs/org.coolstar.tweakinject_1.0.8_iphoneos-arm.deb
 Size: 24146
-MD5sum: 0af06810901e73683bd4a035d561aad0 
-SHA1: 437729042aa4998177d0bf1f64629492debf077d 
-SHA256: 26886f9f17f7ad93f0878bb9540bc206509490c1b0abc5e0f60860dcc502939a
+MD5sum: 7afb9d025cc860b6eb54a79fba643109
+SHA1: bf90e9635b16ff1f18d51e8712372f6c646b5648 
+SHA256: e144bf1d6695bb63a58b7bd166a30bb81ff65457180554da1c4fca005fb3ad52
 Section: System
 Description: General purpose tweak loader with safe mode in case of crashes
 Author: Yangcheesen
